@@ -1,2 +1,2 @@
-web: npm start
-realese: npx sequelize db:migrate
+
+realese: npm run db:migrate
