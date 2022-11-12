@@ -1,5 +1,5 @@
 const request = require('supertest');
-const app = require('../../back-end/app')
+const app = require('../app/')
 const dotenv = require("dotenv");
 dotenv.config();
 
