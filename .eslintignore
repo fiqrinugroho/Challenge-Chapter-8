@@ -1,0 +1,5 @@
+node_modules/
+db/
+.prettierrc.js
+.eslintrc.js
+.env
