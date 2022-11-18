@@ -1,9 +1,9 @@
-const ApplicationError = require("./ApplicationError");
+const ApplicationError = require('./ApplicationError')
 
 class EmailAlreadyTakenError extends ApplicationError {
   constructor(email) {
-    super(`${email} is already taken!!`);
-    this.email = email;
+    super(`${email} is already taken!!`)
+    this.email = email
   }
 
   get details() {
@@ -11,4 +11,4 @@ class EmailAlreadyTakenError extends ApplicationError {
   }
 }
 
-module.exports = EmailAlreadyTakenError;
+module.exports = EmailAlreadyTakenError

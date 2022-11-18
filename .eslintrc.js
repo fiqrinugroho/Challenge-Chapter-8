@@ -9,6 +9,7 @@ module.exports = {
       "ecmaVersion": 2018
     },
     "rules": {
+      "prettier/prettier": ["error"],
       "consistent-return": "off",
       "func-names": "off",
       "jest/expect-expect": "off",
