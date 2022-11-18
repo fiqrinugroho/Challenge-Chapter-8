@@ -6,7 +6,10 @@ module.exports = {
     "extends": ["eslint:recommended", "prettier"],
     "plugins": ["jest", "security", "prettier"],
     "parserOptions": {
-      "ecmaVersion": 2018
+      "ecmaVersion": 2017,
+      "ecmaFeatures": {
+        "experimentalObjectRestSpread": true
+      }
     },
     "rules": {
       "prettier/prettier": ["error"],
